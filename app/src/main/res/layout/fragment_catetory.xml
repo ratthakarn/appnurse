@@ -46,9 +46,20 @@
             android:layout_height="wrap_content" />
 
         <ImageView
+            android:id="@+id/imvCat4"
+            android:background="#BDEC8B"
+            android:layout_weight="1"
+            android:src="@drawable/four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <ImageView
             android:layout_weight="1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
+
+
 
 
         <!--Row2-->

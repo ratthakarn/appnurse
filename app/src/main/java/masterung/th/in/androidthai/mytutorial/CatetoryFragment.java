@@ -17,7 +17,7 @@ import android.widget.ImageView;
  */
 public class CatetoryFragment extends Fragment implements View.OnClickListener {
 
-    private ImageView imageView1, imageView2, imageView3;
+    private ImageView imageView1, imageView2, imageView3, imageView4;
 
 
     public CatetoryFragment() {
@@ -31,10 +31,13 @@ public class CatetoryFragment extends Fragment implements View.OnClickListener {
         imageView1 = getView().findViewById(R.id.imvCat1);
         imageView2 = getView().findViewById(R.id.imvCat2);
         imageView3 = getView().findViewById(R.id.imvCat3);
+        imageView4 = getView().findViewById(R.id.imvCat4);
+
 
         imageView1.setOnClickListener(this);
         imageView2.setOnClickListener(this);
         imageView3.setOnClickListener(this);
+        imageView4.setOnClickListener(this);
 
 //        Phone Controller
         phoneController();
@@ -78,6 +81,11 @@ public class CatetoryFragment extends Fragment implements View.OnClickListener {
                 break;
             case R.id.imvCat3:
                 index = 2;
+                moveToShowList(index);
+                break;
+
+            case R.id.imvCat4:
+                index = 3;
                 moveToShowList(index);
                 break;
         }
