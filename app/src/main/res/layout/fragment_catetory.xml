@@ -27,47 +27,60 @@
                 android:layout_height="wrap_content">
 
                 <ImageView
-                    android:scaleType="fitXY"
+                   android:scaleType="fitXY"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:src="@drawable/nurse_xd" />
 
 
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+
+
+            </LinearLayout>
 
             <ImageView
+                android:scaleType="fitXY"
                 android:id="@+id/imvCat1"
-                android:background="#A39D9D"
+                android:background="#FFFFFF"
                 android:layout_weight="1"
                 android:src="@drawable/one"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_width="match_parent"
+               android:layout_height="match_parent" />
 
             <ImageView
+                android:scaleType="fitXY"
                 android:id="@+id/imvCat2"
-                android:background="#73B9DB"
+                android:background="#FFFFFF"
                 android:layout_weight="1"
                 android:src="@drawable/two"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
 
 
 
             <ImageView
+                android:scaleType="fitXY"
                 android:id="@+id/imvCat3"
-                android:background="#BDEC8B"
+                android:background="#FFFFFF"
                 android:layout_weight="1"
                 android:src="@drawable/three"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
             <ImageView
+                android:scaleType="fitXY"
                 android:id="@+id/imvCat4"
-                android:background="#FF5722"
+                android:background="#FFFFFF"
                 android:layout_weight="1"
                 android:src="@drawable/four"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
 
@@ -109,7 +122,7 @@
 
             <TextView
                 android:textColor="#ffffff"
-                android:text="Emergency Call"
+                android:text="Call: 1669"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
