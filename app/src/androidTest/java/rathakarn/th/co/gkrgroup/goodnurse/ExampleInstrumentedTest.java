@@ -1,4 +1,4 @@
-package masterung.th.in.androidthai.mytutorial;
+package rathakarn.th.co.gkrgroup.goodnurse;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
