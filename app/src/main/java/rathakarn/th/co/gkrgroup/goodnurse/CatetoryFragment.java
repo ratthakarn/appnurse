@@ -47,7 +47,7 @@ public class CatetoryFragment extends Fragment implements View.OnClickListener {
         imageView6.setOnClickListener(this);
 
 //        Phone Controller
-        phoneController();
+       // phoneController();
 
     }   // Main Method
 
@@ -58,7 +58,7 @@ public class CatetoryFragment extends Fragment implements View.OnClickListener {
             public void onClick(View v) {
 
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                String phone = "1669";
+                String phone = "0";
                 intent.setData(Uri.parse("tel:" + phone));
                 startActivity(intent);
 
