@@ -83,6 +83,24 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
 
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/imvCat4"
+                android:background="#FFFFFF"
+                android:layout_weight="1"
+                android:src="@drawable/five"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:scaleType="fitXY"
+                android:id="@+id/imvCat4"
+                android:background="#FFFFFF"
+                android:layout_weight="1"
+                android:src="@drawable/six"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
 
 
 
