@@ -85,7 +85,7 @@
 
             <ImageView
                 android:scaleType="fitXY"
-                android:id="@+id/imvCat4"
+                android:id="@+id/imvCat5"
                 android:background="#FFFFFF"
                 android:layout_weight="1"
                 android:src="@drawable/five"
@@ -94,7 +94,7 @@
 
             <ImageView
                 android:scaleType="fitXY"
-                android:id="@+id/imvCat4"
+                android:id="@+id/imvCat6"
                 android:background="#FFFFFF"
                 android:layout_weight="1"
                 android:src="@drawable/six"
