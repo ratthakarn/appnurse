@@ -28,7 +28,7 @@ import java.util.List;
  */
 public class ListVideoFragment extends Fragment {
 
-    String[] categoryStrings = {"VideoMasterUNG", "VideoMovie", "VideoTrevel", "VideoOther", "VideoOther1", "VideoOther2"};
+    String[] categoryStrings = {"VideoMasterUNG", "VideoMovie", "VideoTrevel", "VideoOther", "VideoOther1", "VideoOther2", "VideoEducate"};
     int index;
 
     public ListVideoFragment() {
